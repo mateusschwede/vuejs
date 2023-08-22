@@ -4,6 +4,7 @@ Códigos e sintaxe Vue.js
 ## Anotações:
 - Playlist: https://youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL
 - Vídeo único: https://www.youtube.com/watch?v=cSa-SMVMGsE&list=WL&index=45
+- Curso Udemy
 
 ## Ferramentas:
 - VSCode (Extensão oficial Volar, Extensão Live Server)
@@ -18,5 +19,12 @@ MV-VM (Model - ViewModel - View), onde a camada de Model possui os dados (recebi
 - Single-file component: Inserir HTML, CSS e TS do component dentro de documento único;
 - Two-way data biding: Sincronização da View com Model, onde tudo o que é realizado na View é, em tempo real, programado na Model, assim como toda operação realizada na Model é refletida, em tempo real, na View.
 
->>> Playlist (ver #03)
+### Input data biding:
+- Possibilidade de modificar dados em realtime, via input
+
+
+>>> Playlist (ver #04) - oficial
 >>> Vídeo único: (parei as 6min)
+
+Arquivos:
+1_instalacao: Exemplo de projeto e input data biding
