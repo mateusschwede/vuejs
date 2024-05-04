@@ -1,0 +1,13 @@
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="src/app.js" defer></script>
+
+<div id="app">
+    <h1>Vue.js</h1>
+    <form id="app-form">
+        <input type="text" v-model="input_name" placeholder="Nome">
+        <input type="submit" v-on:click="submitForm" value="Enviar">
+    </form>
+    Nome (evento): {{ name }}
+    Nome (data_binding): {{ input_name }}
+    Idade: {{ idade }}
+</div>

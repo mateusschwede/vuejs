@@ -1,16 +1,15 @@
 const MyNameApp = {
     data() {
         return {
-            name: "",
-            alimentos: ['banana', 'maçã', 'uva'],
+            name: "fulano",
+            idade: 25,
             input_name: ""
         }
     },
     methods: {
         submitForm(e) {
-            e.preventDefault()
-            console.log(this.input_name)
-            this.name = this.input_name
+            e.preventDefault(); //Não deixa recarregar página
+            this.name = this.input_name;
         }
     }
 }
