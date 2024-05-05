@@ -5,16 +5,20 @@
     <PrimeiroComponente/>
     <br>
     <LifeCycle/>
+    <br>
+    <Pessoa/>
 </template>
 
 <script>
     import PrimeiroComponente from './components/PrimeiroComponente.vue'
     import LifeCycle from './components/LifeCycle.vue'
+    import Pessoa from './components/Pessoa.vue'
     export default {
         name: 'App',
         components: {
             PrimeiroComponente,
-            LifeCycle
+            LifeCycle,
+            Pessoa
         },
         data() { //Variáveis para componente global
             return {
@@ -25,5 +29,5 @@
 </script>
 
 <style>
-    body {color: red;}
+    body {color: rgb(249, 158, 158);}
 </style>
