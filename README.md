@@ -10,3 +10,4 @@ Códigos e sintaxe Vue.js
 - Github (playlist): https://github.com/matheusbattisti/curso_vue_yt
 
 ## Conteúdo:
+- Parou (https://www.youtube.com/watch?v=H5PopRSJBTY), ver 'Curso de Vue 3: #08 - Hierarquia de componentes'
